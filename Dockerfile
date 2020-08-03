@@ -1,0 +1,6 @@
+FROM postgres:latest
+
+ENV POSTGRES_USER mu
+ENV POSTGRES_PASSWORD testing1
+ENV POSTGRES_DB aita_db
+
