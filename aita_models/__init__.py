@@ -1,7 +1,6 @@
 from sqlalchemy import Column, Integer, ForeignKey, Text, DateTime
 from sqlalchemy.ext.declarative import declarative_base, declared_attr
 from sqlalchemy.sql import func
-from decouple import config
 
 Base = declarative_base()
 
