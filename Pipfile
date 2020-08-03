@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "$PYPI_URL"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+pytest-runner = "*"
+
+[packages]
+click = "*"
+aita-models = {editable = true,path = "."}
+alembic = "*"
+sqlalchemy = "*"
+psycopg2-binary = "*"
+python-decouple = "*"
+
+[requires]
+python_version = "3.8"
