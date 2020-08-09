@@ -13,3 +13,6 @@ build:
 run:
 	docker-compose up -d
 	pipenv run alembic upgrade head
+
+stop:
+	docker-compose down
