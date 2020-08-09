@@ -1,4 +1,4 @@
-#AITA MODELS
+# AITA MODELS
 This repos is for creating the database models for storing scraped data from the subreddit 'Am I the Asshole'
 (A subreddit where users provide a situation and ask the question if they were in the wrong.)
 
