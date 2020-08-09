@@ -27,7 +27,7 @@ def upgrade():
     op.create_table('vote',
     sa.Column('id', sa.Integer(), nullable=False),
     sa.Column('code', sa.Text(), nullable=True),
-    sa.Column('type', sa.Text(), nullable=True),
+    sa.Column('description', sa.Text(), nullable=True),
     sa.Column('dt_updated', sa.DateTime(), server_default=sa.text('now()'), nullable=True),
     sa.PrimaryKeyConstraint('id')
     )

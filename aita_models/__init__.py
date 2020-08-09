@@ -25,7 +25,7 @@ class Vote(Base):
     __tablename__ = 'vote'
     id = Column('id', Integer, primary_key=True)
     code = Column('code', Text)
-    type = Column('type', Text)
+    description = Column('type', Text)
     dt_updated = Column('dt_updated', DateTime, server_default=func.now())
 
 
