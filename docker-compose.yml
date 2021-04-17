@@ -15,3 +15,13 @@ services:
             - 8080:8080
         depends_on:
           - db
+    dash:
+        image: grafana/grafana:latest
+        container_name: graphana
+        restart: always
+        ports:
+          - 3000:3000
+
+        depends_on:
+          - db
+
